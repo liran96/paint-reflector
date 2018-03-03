@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>paint reflector</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="actions">
+        <button id="clearBtn">Clear</button>
+        <span id="lineWidth">
+            <label>Line width</label>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </span>
+        <span id="colorPicker">
+            <label>Color</label>
+            <select >
+                <option value="black" selected>black</option>
+                <option value="purple">purple</option>
+                <option value="red">red</option>
+                <option value="rosybrown">brown</option>
+            </select>
+        </span>
+    </div>
+    <canvas width="500px" height="500px"></canvas>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

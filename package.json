@@ -1,0 +1,15 @@
+{
+  "name": "paint-reflector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "liran vizner",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "ws": "^4.1.0"
+  }
+}
