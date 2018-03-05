@@ -4,7 +4,6 @@
 
     function main() {
         var mousePressed = false;
-        var lastX, lastY;
         var canvas = $('canvas');
         var ctx = canvas[0].getContext("2d");
         const serverUrl = 'ws://localhost:8080';
@@ -60,8 +59,8 @@
 
 
 
-        function Draw(x, y, isDown) {
-            if (isDown) {
+        function Draw(x, y, isMove) {
+            if (isMove) {
                 ctx.beginPath();
                 ctx.strokeStyle = $('#colorPicker select option:selected').val();
                 ctx.lineWidth = $('#lineWidth select option:selected').val();
